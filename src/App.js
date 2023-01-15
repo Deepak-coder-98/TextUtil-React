@@ -32,7 +32,7 @@ function App() {
   };
   return (
     <>
-      <Router>
+      {/* <Router> */}
         <Navbar
           title="TextUtils"
           mode={mode}
@@ -40,19 +40,19 @@ function App() {
           text={text}
         />
         <Alert alert={alert} />
-        <Switch>
-          <Route exact path="/">
+        {/* <Switch>
+          <Route exact path="/"> */}
             <TextForm
               heading="Enter the text to analyze"
               mode={mode}
               showAlert={showAlert}
             />
-          </Route>
-          <Route exact path="/about">
-            <About mode={mode} />
-          </Route>
+          {/* </Route>
+          <Route exact path="/about"> */}
+            {/* <About mode={mode} /> */}
+          {/* </Route>
         </Switch>
-      </Router>
+      </Router> */}
     </>
   );
 }
