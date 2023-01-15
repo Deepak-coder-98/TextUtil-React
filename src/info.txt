@@ -1,0 +1,5 @@
+react do the partical mapping in react route
+/users --> Component 1
+/users/home --> Component 2
+
+to avoid this use the exact in Route
